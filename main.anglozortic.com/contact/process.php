@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: http://anglozortic.com/main.anglozortic.com/contact/success.html');
+    header('Location: http://../main.anglozortic.com/contact/success.html');
   }

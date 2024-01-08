@@ -1,5 +1,5 @@
 <?php
-  if (isset($_POST['email'])) {
+  if (isset($_POST['email']))  {
   
     //Email information
     $admin_email = "jerryabuaoffre@gmail.com";
@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: http://../main.anglozortic.com/contact/success.html');
+    header('Location: http://anglozortic.com/success.html');
   }

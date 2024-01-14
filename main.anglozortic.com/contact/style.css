@@ -15,6 +15,7 @@ body{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
+    display: inline;
 }
 .contact-container {
     height: 100vh;
